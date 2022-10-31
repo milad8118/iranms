@@ -15,7 +15,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
  @font-face {
-  font-family: vazir;
+  font-family: "vazir";
   src: url(../fonts/ttf/Vazir-Thin.ttf);
  }
 :root {
@@ -18533,4 +18533,24 @@ ul {
 
 .teach-header-title{
   font-size:  30px;
+}
+.multiple-title-top-menu{
+  font-size: 50px;
+}
+.brain-logo{
+
+  height: 600px;
+  border-radius: 100%;
+}
+.symptoms-ms{
+  font-size: 25px!important;
+  font-family: "vazir"!important;
+  text-align: right!important;
+  line-height: 50px;
+}
+.ms-cure{
+  background-color: #f3f8ff;
+  border-radius: 10px;
+  width: 97vw;
+  margin: auto;
 }
