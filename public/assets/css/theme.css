@@ -18530,6 +18530,20 @@ ul {
 
 /*# sourceMappingURL=theme.css.map */
 
+.iums-logo{
+  width: 8rem;
+  height: 5rem;
+  background: url(../img/IUMS-logo.png) center center no-repeat;
+  background-size: contain;
+}
+
+@media only screen and (max-width:768px){
+  .iums-logo{
+    height: 3rem;
+    flex-grow: 1;
+  }
+
+}
 
 .teach-header-title{
   font-size:  30px;
@@ -18551,7 +18565,7 @@ ul {
 .ms-cure{
   background-color: #f3f8ff;
   border-radius: 10px;
-  width: 97vw;
+  width: 100%;
   margin: auto;
 }
 .text__header{
@@ -18585,4 +18599,7 @@ height: 9rem;
 .nurse-contact-pic{
   border-radius: 10px;
   transform: rotate(3deg);
+}
+li{
+  list-style-type: none ;
 }
