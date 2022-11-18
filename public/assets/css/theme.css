@@ -18619,6 +18619,9 @@ height: 100%;
 }
 .food__movie-container{
 width: 70%;
+border-radius: 10px;
+overflow: hidden;
+
 }
 .food__movie{
   border-radius: 10px;
@@ -18632,4 +18635,7 @@ justify-content: center;
 .exercise-section{
   padding: 0;
 background-color: #f3f8ff!important;
+}
+.food-section{
+  background-color: #00707f!important;
 }
